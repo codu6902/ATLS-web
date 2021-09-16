@@ -1,0 +1,35 @@
+body {
+  background-color: #94618E;
+  font-family: sans-serif;
+}
+h1 {
+  color: #EDF5E1;
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: underline;
+  letter-spacing: 5px;
+}
+
+h2 {
+  display: inline-block;
+  color: #EDF5E1;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #F4DECB;
+}
+p {
+  color: #F8EEE7;
+  margin: 25px;
+
+}
+h3 {
+  display: inline-block;
+  color: #F8EEE7;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #F4DECB;
+}
+p {
+  color: #F8EEE7;
+  margin: 25px;
+}
