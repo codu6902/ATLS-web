@@ -1,0 +1,81 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+p{
+  color: red;
+  font-family: helvetica;
+}
+
+h1, h2{
+  font-family: "Bebas Neue";
+}
+
+#DOG! h1{
+  z-index: 1;
+  position: relative;
+  font-size: 5vw;
+  top: 30vh;
+  margin: 0 0 0 7vw;
+
+#DOG!{
+  width:100vw;
+  height: 60vh;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+#DOG! img {
+  width: 120vw;
+  position: relative;
+  bottom: 300px;
+  right: 200px;
+}
+}
+
+#one, #two, #three{
+  margin-left: 7vw;
+  margin-right: 3vw;
+  margin-top: 10vw;
+}
+
+button{
+  background-color: #ebbd34;
+  font-family: "Bebas Neue";
+  font-size: 30px;
+  margin: 10px;
+  padding: 7px 20px;
+  position: relative;
+  left: 50vw;
+}
+
+button:active{
+  background-color: blue;
+  color: white;
+}
+
+button:hover{
+  border:solid black 3px;
+}
+
+a:visited{
+  color: lightgrey;
+}
+
+a:link{
+  color:blue;
+}
+
+a:active{
+  color: red;
+}
+
+a:hover{
+  fontt-size: 200%;
+}
+
+div{
+  margin-top: 10vh;
+}
