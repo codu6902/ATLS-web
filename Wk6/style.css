@@ -1,81 +1,35 @@
 body{
-  padding: 0px;
-  margin: 0px;
-}
-
-p{
-  color: red;
-  font-family: helvetica;
-}
-
-h1, h2{
-  font-family: "Bebas Neue";
-}
-
-#DOG! h1{
-  z-index: 1;
-  position: relative;
-  font-size: 5vw;
-  top: 30vh;
-  margin: 0 0 0 7vw;
-
-#DOG!{
-  width:100vw;
-  height: 60vh;
-  overflow: hidden;
-  margin: 0px;
-  padding: 0px;
-}
-
-#DOG! img {
-  width: 120vw;
-  position: relative;
-  bottom: 300px;
-  right: 200px;
-}
-}
-
-#one, #two, #three{
-  margin-left: 7vw;
-  margin-right: 3vw;
-  margin-top: 10vw;
+  background-color: #34eb61;
+  display: flex;
 }
 
 button{
-  background-color: #ebbd34;
-  font-family: "Bebas Neue";
-  font-size: 30px;
-  margin: 10px;
-  padding: 7px 20px;
-  position: relative;
-  left: 50vw;
-}
-
-button:active{
-  background-color: blue;
-  color: white;
+  border-radius: 8px;
+  padding: 1vh 3vw;
+  float:inherit;
+  margin: 1vh;
+  color: #ff00bf;
+  cursor: pointer;
 }
 
 button:hover{
-  border:solid black 3px;
+  border: #fff solid: 1px;
 }
 
-a:visited{
-  color: lightgrey;
+button:active{
+  color: #ff00bf;
 }
 
-a:link{
-  color:blue;
+h1{
+  background-color: #000000;
+  padding: 20px;
+  color: #ffffff;
+  padding: 20px;
+  margin: 5px;
 }
 
-a:active{
-  color: red;
-}
-
-a:hover{
-  fontt-size: 200%;
-}
-
-div{
-  margin-top: 10vh;
+section{
+  margin: auto;
+  width: 50%;
+  text-align: center;
 }

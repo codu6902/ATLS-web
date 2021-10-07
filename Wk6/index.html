@@ -1,46 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Week 6</title>
+  <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue">
+<title>Week 6 HW</title>
 </head>
-
 <body>
-  <section id="DOG!">
-  <section>
-  <h1>Welcome to my site!</h1>
-  <img alt="dog by flatirons" src="DOG!.jpg" id="DOG!">
-  </section>
-  <section id="one">
-    <h2>This is my first section</h2>
-    <p> asjflksdjag;irwutioghrlbohgoiugnlghwrogyroughbfhbhapoehbhblahbehbopiahbelbhljabheh
-      wjkhgwroughawnbl;ajhbpourygohhaouetghsngjsgrehgouhgngarhgknfhgoauyaoerhgeonjhna</p>
-    <p>ajghraeunbkjenbubhrtoaehbjethbouhbkjebnjangwghrouwtyowurtyopeutypoerhgelkjtyheuh</p>
-  </section>
-
-  <section id="two">
-    <h2>This is my <a href="https://google.com">second section</a></h2>
-    <p> asjflksdjag;irwutioghrlbohgoiugnlghwrogyroughbfhbhapoehbhblahbehbopiahbelbhljabheh
-      wjkhgwroughawnbl;ajhbpourygohhaouetghsngjsgrehgouhgngarhgknfhgoauyaoerhgeonjhna
-      ajghraeunbkjenbubhrtoaehbjethbouhbkjebnjangwghrouwtyowurtyopeutypoerhgelkjtyheuh</p>
-    <p>asjflksdjag;irwutioghrlbohgoiugnlghwrogyroughbfhbhapoehbhblahbehbopiahbelbhljabheh
-      wjkhgwroughawnbl;ajhbpourygohhaouetghsngjsgrehgouhgngarhgknfhgoauyaoerhgeonjhna</p>
-  </section>
-
-  <section id="three">
-    <h2>This section contains a button</h2>
-    <button>Click this button</button>
-  </section>
-
+<section>
+  <h1>Two Buttons!</h1>
+  <button id="1">Click Me!</button>
+  <button id="2">Me Too!</button>
 <script>
-  console.log("javascript working");
-  document. getElementById("mybutton").addEventListener("click", function(){alert("you pushed the button!")});
-  document. getElementById("mybutton2").addEventListener("click", buttonClicked);
-  function buttonClicked(){
-    alert("you pushed the second button!")
-  }
-</script>
-</body>
 
+document.getElementById("1").addEventListener("click",changeYellow)
+function changeYellow(){
+  document.body.style.backgroundColor = "yellow";
+document.getElementById("2").addEventListener("click",changeBlue)
+function changeBlue(){
+  document.body.style.backgroundColor = "blue";
+}
+}
+
+</script>
+</section>
+</body>
 </html>
