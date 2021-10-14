@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="utf-8">
 <title>Quote Machine</title>
 <link rel="stylesheet" href="style.css">
 </head>
@@ -9,19 +10,12 @@
 <h1 id="qtext">Welcome the quote machine, click the button to get a quote.</h1>
 <button id="newquote">New Quote</button>
 </section>
-<section id="flex">
-  <div class="flexitem">
-    <h2>one</h2>
-    </div>
 
-    <div class="flexitem2">
-      <h2>two</h2>
-    </div>
-  </section>
 
 <script>
   const quotes = ["No matter what people tell you, words and ideas can change the world.", "I'd rather be optimistic and wrong than pessimistic and right.",
-  "If you think you can do a thing or think you can't do a thing, you're right.", "However difficult life may seem, there is always something you can do and succeed at."];
+  "If you think you can do a thing or think you can't do a thing, you're right.", "However difficult life may seem, there is always something you can do and succeed at."
+  ,"Peace begins with a smile.","Do not let the behavior of others destroy your inner peace"];
 let quotecount = 0;
 
   document.getElementById("newquote").addEventListener("click", buttonClicked);
@@ -29,7 +23,7 @@ let quotecount = 0;
   function buttonClicked(){
     console.log(quotes[quotecount]);
     document.getElementById("qtext").innerHTML = quotes[quotecount];
-    if(quotecount>=3){
+    if(quotecount>=5){
       quotecount = 0;
     }else{
     quotecount ++;
