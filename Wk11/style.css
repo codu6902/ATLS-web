@@ -1,0 +1,89 @@
+h1 {
+  font-weight: normal; color: black;
+  margin-bottom: 2em;
+}
+
+body {
+  background-color: tan;
+}
+
+#PhotoArray {
+  display: grid;
+  grid-gap: .5em;
+  row-gap: 0;
+  grid-template-areas:
+    "photoOne photoTwo photoThree"
+    "photoOne photoFour photoFive";
+  grid-template-columns: 1fr 20% 20%;
+}
+
+#PhotoArray > div {
+  border: 2px solid #EEE;
+  border-radius: 5px;
+}
+
+#PhotoArray > div:first-child {
+  grid-area: photoOne;
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://goop-img.com/wp-content/uploads/2019/02/Cristopher-Benitah-2.jpg);
+background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
+}
+
+#PhotoArray > div:nth-child(2) {
+  grid-area: photoTwo;
+  background-image: url(https://www.skimag.com/wp-content/uploads/2021/10/ArapahoeBasin-CaseyDay-HR-01357.jpg);
+  width: 100%;
+  height: 50vh;
+background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
+}
+
+#PhotoArray > div:nth-child(3) {
+  grid-area: photoThree;
+  background-image: url(https://pbs.twimg.com/media/D5kuTcUW0AEuuoA.jpg);
+  width: 100%;
+  height: 50vh;
+background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
+}
+
+#PhotoArray > div:nth-child(4) {
+  grid-area: photoFour;
+  background-image: url(https://d1aup3of1p0fq2.cloudfront.net/all-resort-pics/resort-photo-24868.jpg);
+  width: 100%;
+  height: 50vh;
+background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
+}
+
+#PhotoArray > div:nth-child(5) {
+  grid-area: photoFive;
+  background-image: url(https://assets.vogue.com/photos/5e02637a791225000822fc9f/master/w_2973,h_3964,c_limit/CB-5-slope.JPG);
+  width: 100%;
+  height: 50vh;
+background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
+}
+
+@media screen and (max-width:800px)
+{
+  .column {
+    flex:50%;
+    max-width: 50%
+  }
+}
+
+@media screen and (max-width:600px)
+{
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
