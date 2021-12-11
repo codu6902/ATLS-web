@@ -1,99 +1,125 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>My Website</title>
-<!--title-icon ------------->
-<link rel="shortcut icon" href="assets/tetons.jpg"/>
-<!--link-css-file-------->
-<link rel="stylesheet" type="text/css" href="style.css">
-<!--using-FontAwesome--------->
-<script src="https://kit.fontawesome.com/c8e4d183c2.js"
-crossorigin="anonymous"></script>
+  <style>
+    .imageicon:nth-child(1){
+      background-image: url("assets/greenYellow.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .imageicon:nth-child(2){
+      background-image: url("assets/pine.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .imageicon:nth-child(3){
+      background-image: url("assets/car.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .imageicon:nth-child(4){
+      background-image: url("assets/car.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .imageicon:nth-child(5){
+      background-image: url("assets/Sadie.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>www.collindunn.com</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/index.js"></script>
 </head>
 
 <body>
-<!--main--------------------->
-      <section id="main">
-      <!--navigation------------------>
-      <!--<nav>  <!--logo------------>
-      <!--name---------------->
-      <div class="name">
-      <!--hello-->
-      <p>Hello</p>
-      <!--name----------------->
-      <h1>I'm <font color="#FFBA49">Collin </font>Dunn</h1>
-      <!--details--------->
-      <p class="details">My vision is to create content that speaks to
-      people in some way. Hopefully it will make a difference.</p>
-      <!--cv-btn--------->
-      <a href="#" class="cv-btn">Download Cv</a>
+    <div id="navbar">
+      <a href="#" id="logo">Collin Dunn</a>
+      <div id="navbar-right">
+          <a href ="#" class="active">Home</a>
+          <a href ="#">Portfolio</a>
+          <a href ="#">About Me</a>
       </div>
-      <!--social------------>
-      <div class="social">
-      <a href="#"><i class="fab fa-facebook-f"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i class="fab fa-youtube"></i></a>
-      </div>
-      <!--arrow----------->
-      <div class="arrow"></div>
-
-      </section>
-
-    <nav>
-    <!--logo---------------->
-    <a href="#" class="logo">Collin Dunn</a>
-    <!--menu----------------->
-    <ul class="menu">
-    <li><a class="active" href="home">Home</a></li>
-    <li><a href="myWork">My Work</a></li>
-    <li><a href="whoAmI">Who I Am</a></li>
-  </ul>
-
-  </nav>
-
-<!--about-section-------->
-  <section id="work">
-    <section id="PhotoArray">
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-    </section>
-    <div class="work-text">
-    <h1>My Work</h1>
-    <h2>In Media Production - </h2>
-    <p>In my experience I've gotten to put in a lot of work
-    using various kinds of media. This experience entails
-    everything from photography/videography, to editing/mixing,
-    to thinking artistically and critically about the work I put out.
-    Below are projects I've worked on over my time at CU Boulder
-    studying media production.</p>
     </div>
-    <!--about-model-img-------->
 
+    <div class="header">
+      <h1>Welcome in,</h1>
+      <p>to my <b>personal</b> website.</p>
+    </div>
 
-  </section>
+    <div class="slider">
+      <div class="sliderchild">
+          <div class="imageicon"></div>
+          <div class="imageicon"></div>
+          <div class="imageicon"></div>
+          <div class="imageicon"></div>
+          <div class="imageicon"></div>
+      </div>
+    </div>
 
-<!--services----------->
-  <section id="services">
-  <!--services-heading----------->
-  <div class="s-heading">
-  <h1>Who I Am</h1>
-  <p>My name is Collin Dunn and I am currently pursuing my Bachelor's
-  degree in Media Production at CU Boulder. I am also pursuing a minor
-  in Creative Technology and Design and a certificate in Music Technology.
-  I have a passion for media and I am proficient in topics such as
-  Adobe Premiere Pro, Photoshop, Lightroom, etc. I also have experience
-  using programs such as Figma and Atom coding files such as html,
-  css, and javascript. I've had experience working as an intern at
-  Breakthrough Colorado doing video editing work as well as various
-  media projects with I-70 Things (@i70things).</p>
-  </div>
+    <div class="row">
+      <div class="side">
+        <h2><span>Portfolio</span></h2>
+        <div class="fakeimg">
+          <img src="assets/collin.jpg" alt="invalid" width="334" height="421">
+        </div>
+        <p>What's going on? I'm Collin and I hope you're well.</p>
+        <h2>Skills</h2>
+        <h4>Photography/Videography/Video Editing/Audio Stuff</h4>
+        <div class="fakeimg">
+          <p>Frontend - Premiere Pro, Lightroom, Audition</p>
+        </div>
+        <div class="fakeimg">
+          <p>Backend - Photoshop, Illustrator, After Effects</p>
+        </div>
+        <div class="fakeimg">
+          <p>Also proficient at coding HTML, CSS, and Javascript files.</p>
+        </div>
+        <br><br>
+        <h4>Equipment Available</h4>
+        <div class="fakeimg">
+          <p>Sony A6000, GOPRO Hero 8, R0DE Microphone, Stage Lighting</p>
+        </div>
+      </div>
 
+    <div class="main">
+      <h2><span>About Me</span></h2>
+      <h5>Website description, Dec 10, 2021</h5>
+        <div class="fakeimg" style="height: 5px;">
+          <img src="assets/tetons.jpg" alt="invalid" height="400" width="600">
+        </div>
+        <div style="margin-top: 25%;">
+          <h2><span>About Me</span></h2>
+          <h5>Information, description, Dec 10, 2021</h5>
+          <p>I'm Collin Dunn and I'm currenly a studying in Media production
+            and minoring in Creative Technology and Design and Music Technology
+            at CU Boulder. I have a passion for creating new content and seeing
+            the world in different ways. Over the past few years of my education
+            I've made various projects ranging from short films to recreating
+            soundscapes. I've had a few internships along the way as well as I'm
+            currently working around with various content people send in at
+            I-70 Things (@i70things). Before that I was in a video editing role
+            with Breakthrough Colorado - a non profit that helps the incarcerated
+            population get back on their feet once released from prison. Hopefully
+            these experiences will lead to greater projects in the future.</p>
+        </div>
+        </div>
+      </div>
 
-  </section>
+<div class="footer">
+<h3>&copy; Copyright 2021. All Right Reserved</h3>
+<h3>Developed by Collin Dunn</h3>
+</div>
+
 
 </body>
 </html>
