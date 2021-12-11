@@ -97,11 +97,15 @@ body{
 }
 span{
   border-bottom: 4px solid #B57F50;
+  display: block;
 }
 .main{
-  flex: 70%;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 1400px;
   background-color: #B4D2BA;
-  padding: 20px;
+  padding: 25px;
 }
 .fakeimg{
   border-bottom: 3px solid #B57F50;
